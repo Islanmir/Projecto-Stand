@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title> Stand Automóveis </title>
+	<link rel="icon" type="image/png" href="favicon.png">
+	<link rel="stylesheet" href="css/estilos.css" type="text/css">
+	<link rel="stylesheet" href="css/logos.css">
+	<link rel="stylesheet" href="css/infinite-slider.css">
+<script src="https://code.jquery.com/jquery-2.2.0.min.js" type="text/javascript"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.6.0/slick.js"></script>
+<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/js/bootstrap.min.js"></script>
+<link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" rel="stylesheet">
+<script>
+$(document).ready(function(){
+  $('.customer-logos').slick({
+    slidesToShow: 6,
+    slidesToScroll: 1,
+    autoplay: true,
+    autoplaySpeed: 1000,
+    arrows: false,
+    dots: false,
+    pauseOnHover: false,
+    responsive: [{
+      breakpoint: 768,
+      settings: {
+        slidesToShow: 4
+      }
+    }, {
+      breakpoint: 520,
+      settings: {
+        slidesToShow: 3
+      }
+    }]
+  });
+}); 
+ </script>
+
+</head>
+<body>
+	<header>
+	<ul>
+		<li> <a href="index.html"> Home </a> </li>
+		<li> <a href="#"> Serviços </a> </li>
+		<li> <a href="#"> Contatos </a> </li>
+	</ul>		
+	<img src="imagens/banner.png" class="banner">		
+		
+	<ul>
+		<li> <a href="index.html"> Todas as Marcas </a> </li>
+		<li> <a href="#"> Alfa </a> </li>
+		<li> <a href="audi.html"> Audi </a> </li>
+		<li> <a href="#"> Avalon </a> </li>
+		<li> <a href="#"> BMW </a> </li>
+		<li> <a href="jeep.html"> Jeep </a> </li>
+		<li> <a href="mercedes.html"> Mercedes </a> </li>
+		<li> <a href="#"> Nissan </a> </li>
+		<li> <a href="#"> Tesla </a> </li>
+	</ul>	
+	</header>	 
+	<br><br>
+	<h2> Audi a sua marca favorita </h2>
+	<br><br>
+<div class="galeria">
+    <div class="coluna">
+        <img src="imagens/audi.jpg" >
+    </div>
+    <div class="coluna">
+        <img src="imagens/audi1.jpg" >
+    </div>
+    <div class="coluna">
+        <img src="imagens/audi2.jpg" >
+    </div>  
+</div>
+<div class="galeria">
+    <div class="coluna">
+        <img src="imagens/audi3.jpg" >
+    </div>
+    <div class="coluna">
+        <img src="imagens/audi4.jpg" >
+    </div>  
+</div>						
+	<br><br>
+	<br><br>
+<div class="container">
+	<section class="customer-logos slider">
+		<div class="slide"><img src="Logos/audi.png"></div>
+		<div class="slide"><img src="logos/bmw.png"></div>
+		<div class="slide"><img src="Logos/toyota.png"></div>
+		<div class="slide"><img src="logos/chevy.png"></div>
+		<div class="slide"><img src="logos/ford.png"></div>
+		<div class="slide"><img src="Logos/jeep.png"></div>
+		<div class="slide"><img src="logos/honda.png"></div>
+		<div class="slide"><img src="logos/mercedes.png"></div>
+		<div class="slide"><img src="Logos/tesla.png"></div>
+		<div class="slide"><img src="Logos/volks.png"></div>
+	</section>
+</div>
+	<footer>
+		<img src="imagens/BannerCarros.png" class="banner">
+		<h4> 2025 - Site criado por Teresa Monteiro - turma 25057 </h4> 	
+	</footer>
+
+</body>
+</html>
