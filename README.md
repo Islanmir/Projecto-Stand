@@ -3,3 +3,5 @@ Projeto feito na UFCD 5414 - programação WEB front-end, para praticar conhecim
 Criação de um catálogo de modelos para um stand automóvel, com detalhes e informações sobre cada marca.
 
 Meus primeiros passos em front-end.
+
+Visualização: https://islanmir.github.io/Projecto-Stand/
